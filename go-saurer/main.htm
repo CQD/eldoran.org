@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<!-- <BASE  HREF="http://www.eldoran.org/go-saurer/main.htm"> by CQD -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>春風市分校﹕主頁</title>
+</head>
+
+<body OnLoad="Scroll();" background="images/bg.jpg">
+
+<p align="right"><small>Last Update: 20-09-2001</small></p>
+
+<p align="center"><img src="images/main.gif" alt="main.gif (2496 bytes)" WIDTH="114" HEIGHT="25"></p>
+
+<p align="center"><font color="#800040"><big><big><strong>光之戰士小學 - 
+春風市分校</strong></big></big></font></p>
+<script Language="JavaScript">
+
+var msg="歡迎光臨　光之戰士小學–春風市分校！請隨便參觀～";
+var interval = 200;
+var space5="　　　　　";
+var seq=0;
+
+msg = msg + space5;
+
+function Scroll() {
+document.tmForm.tmText.value = msg.substring(seq, msg.length) + msg + msg;
+seq++;
+if ( seq >= msg.length ) { seq = 0 };
+window.setTimeout("Scroll();", interval );
+}
+
+</script>
+
+
+<form Name="tmForm">
+  <div align="center"><center><p><input Type="Text" Name="tmText" Size="45"> </p>
+  </center></div>
+</form>
+
+<p align="center">　</p>
+
+<p align="center"><img src="images/logo.gif" alt="logo.gif (17569 bytes)" WIDTH="563" HEIGHT="206"></p>
+</body>
+
+</html>
