@@ -1,0 +1,15 @@
+application: deft-racer-864
+version: dev-master
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+###################################################
+
+- url: /
+  static_files: public/index.htm
+  upload: public/index.htm
+
+- url: /
+  static_dir: public/
