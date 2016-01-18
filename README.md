@@ -20,3 +20,9 @@ Sunrise在1991年到1993年間推出了三部兒童取向的系列機器人作�
 鄭重為各位介紹，[光之戰士小學紀念館](http://eldoran.org/index0.htm)。
 
 （CQD，原文寫於 2005 的某一天，最後更新於 2015/01/18）
+
+## 技術說明
+
+目前這個網站放在 Google App Engine 上面供閱覽，打撈到的原始碼則放在 [github](https://github.com/CQD/eldoran.org) 上面。
+
+如果有人願意提供其他的原始資料，請透過 github 開 issue 通知我，或是直接發 pull request。
