@@ -1,4 +1,4 @@
-## Eldoran.org
+## 關於 Eldoran.org
 曾經有個網站，光之戰士小學（[http://www.eldoran.org](http://www.eldoran.org)）。
 
 Sunrise在1991年到1993年間推出了三部兒童取向的系列機器人作品：
