@@ -5,6 +5,10 @@ handlers:
 - url: /
   static_files: public/index.htm
   upload: public/index.htm
+  secure: always
+  redirect_http_response_code: 301
 
 - url: /
   static_dir: public/
+  secure: always
+  redirect_http_response_code: 301
