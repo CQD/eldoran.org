@@ -1,11 +1,6 @@
-application: deft-racer-864
-version: dev-master
-runtime: php55
-api_version: 1
-threadsafe: true
+runtime: php73
 
 handlers:
-###################################################
 
 - url: /
   static_files: public/index.htm
