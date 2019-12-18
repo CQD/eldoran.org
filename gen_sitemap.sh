@@ -1,2 +1,2 @@
 #!/bin/bash
-find public -name "*.htm" | sed 's/^public\//http:\/\/eldoran.hiigara.net\//g'
+find public -name "*.htm" | sed 's/^public\//https:\/\/eldoran.org\//g'
